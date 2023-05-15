@@ -85,3 +85,56 @@ Data de criação: a data de criação do registro do contrato.
 Data de atualização: a data mais recente em que o registro do contrato foi atualizado.
 
 
+
+
+Entidade: Corretor
+Atributos:
+ID: identificador único do corretor.
+Nome: o nome completo do corretor.
+Email: o endereço de e-mail do corretor.
+Telefone: o número de telefone do corretor.
+Data de nascimento: a data de nascimento do corretor.
+Gênero: o gênero do corretor.
+Registro profissional: o número de registro profissional do corretor.
+Endereço:
+Logradouro: nome da rua ou avenida.
+Número: número do imóvel.
+Complemento: informações adicionais do endereço, como bloco, apartamento, etc.
+Bairro: nome do bairro.
+Cidade: nome da cidade.
+Estado: estado onde está localizado o corretor.
+CEP: código de endereçamento postal.
+Data de criação: a data de criação do registro do corretor.
+Data de atualização: a data mais recente em que o registro do corretor foi atualizado.
+
+Entidade: Visitante
+Atributos:
+ID: identificador único do visitante.
+Nome: o nome completo do visitante.
+Email: o endereço de e-mail do visitante.
+Telefone: o número de telefone do visitante.
+Data de visita: a data da visita ao imóvel.
+Observações: quaisquer observações ou comentários sobre a visita.
+Imóvel visitado: uma referência ao imóvel visitado.
+Data de criação: a data de criação do registro do visitante.
+Data de atualização: a data mais recente em que o registro do visitante foi atualizado.
+
+Entidade: Proprietário
+Atributos:
+ID: identificador único do proprietário.
+Nome: o nome completo do proprietário.
+Email: o endereço de e-mail do proprietário.
+Telefone: o número de telefone do proprietário.
+Endereço:
+Logradouro: nome da rua ou avenida.
+Número: número do imóvel.
+Complemento: informações adicionais do endereço, como bloco, apartamento, etc.
+Bairro: nome do bairro.
+Cidade: nome da cidade.
+Estado: estado onde está localizado o proprietário.
+CEP: código de endereçamento postal.
+Imóveis de propriedade: uma lista de imóveis de propriedade do proprietário.
+Data de criação: a data de criação do registro do proprietário.
+Data de atualização: a data mais recente em que o registro do proprietário foi atualizado.
+
+
